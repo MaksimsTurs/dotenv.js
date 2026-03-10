@@ -1,5 +1,5 @@
 {
-  "name": "dotenv.js",
+  "name": "@maksims/dotenv.js",
   "version": "1.0.0",
   "description": "Small parser for simple .env files.",
   "homepage": "https://github.com/MaksimsTurs/dotenv.js#readme",
