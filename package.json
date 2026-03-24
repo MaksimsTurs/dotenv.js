@@ -1,7 +1,7 @@
 {
   "name": "@maksims/dotenv.js",
   "version": "1.0.0",
-  "description": "Small parser for simple .env files.",
+  "description": "Small and simple javascript parser for .env files.",
   "homepage": "https://github.com/MaksimsTurs/dotenv.js#readme",
   "license": "ISC",
   "author": "MaksimsTurs",
@@ -13,8 +13,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MaksimsTurs/dotenv.js.git"
-  },
-  "dependencies": {
-    "@types/node": "^25.0.9"
   }
 }
