@@ -6,6 +6,7 @@
   "license": "ISC",
   "author": "MaksimsTurs",
   "type": "module",
+  "types": "./types/dotenv.d.ts",
   "main": "./src/dotenv.js",
   "bugs": {
     "url": "https://github.com/MaksimsTurs/dotenv.js/issues"
