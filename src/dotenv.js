@@ -14,14 +14,10 @@ export default function dotenv(path = DEFAULT_PATH) {
     const line = lines[index];
 
     // A=V smallest possible valid env variable. 
-    if(line.length < 3) {
-      console.error(`[dotenv]: Variable on line ${index} has either no value or key!`);
-    } else {
-      if(isComment(line)) {
-        // Skip all comments.
-        continue;
-      }
 
+    if(line.length < 3 && !isEmptyStr(line)) {
+      console.error(`[dotenv]: Variable on line ${index} has either no value or key!`);
+    } else if(!isEmptyStr(line) && !isComment(line)) {
       const keyEndIndex = line.indexOf("=");
       const valueStartIndex = keyEndIndex + 1;
       const key = getKey(keyEndIndex, line);
