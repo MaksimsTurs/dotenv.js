@@ -1,2 +1,2 @@
 ## Features
-feat: add support of multiline string
+feat: replace if/else statements with simple state machine
